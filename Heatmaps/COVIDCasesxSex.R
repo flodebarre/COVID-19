@@ -124,7 +124,7 @@ ggplot(heatmapdata %>% filter(date>as.Date("2020-03-10") &date<max(date)-days(3)
                                 "2:1", 
                                 "Equal male\nand female\ncases", 
                                 "2:1", 
-                                "4 Male cases\nfor each\nmale case"))+
+                                "4 Male cases\nfor each\nfemale case"))+
   scale_x_date(name="")+
   scale_y_discrete(name="Age")+
   theme(legend.position = "top", plot.subtitle=element_markdown())+
